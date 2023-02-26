@@ -1,3 +1,4 @@
+@import './reset.css';
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +11,97 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.logo{
+  text-align: center;
+  padding: 10px 0;
+}
+
+.page{
+  position:relative;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  max-width: 500px;
+  padding: 0 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 1px solid #000;
+  margin-top: 30px;
+}
+.subTitle{
+  margin-top: 50px ;
+  font-size: 25px;
+  font-weight: bold;
+  color: #333;
+}
+.inTitle{
+  font-size: 15px;
+  color: #555;
+  margin-top: 20px;
+}
+.inputItem{
+  display: flex;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+}
+.inputItem:focus-within{
+  border: 1px solid #59c7d2;
+}
+.input{
+  width: 100%;
+  outline: none;
+  border: none;
+  height: 17px;
+  font-size: 14px;
+}
+input::placeholder{
+  color: #aaa;
+}
+.errMassage{
+  margin-top: 8px;
+  color: #ff0000;
+  font-size: 13px;
+}
+.btn{
+  width: 80%;
+  height: 40px;
+  border: none;
+  font-weight: bold;
+  background: #59c7d2;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+  margin: 50px auto 20px;
+}
+.btn:disabled{
+  background: #ddd;
+  color: #fff;
+}
+.gnb{
+  background: #0d89c5;
+}
+.gnb ul{
+  display: flex;
+  justify-content: center;
+}
+.gnb ul li a{
+  color: #fff;
+  display: block;
+  padding: 10px 20px;
+}
+.gnb ul li a.active{
+  color: #f0dc8c;
+  text-decoration: underline;
+}
+.slide_top h1{
+  margin: 20px 0;
+}
+.main_slide .swiper-slide img{
+  width: 100%;
 }
