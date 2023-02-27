@@ -13,7 +13,7 @@ export default function Header(){
             <nav className='gnb'>
                 <ul>
                     <li>{/* active 클래스명이 생김 */}
-                        <NavLink to="/">Home</NavLink>
+                        <NavLink to="/home">Home</NavLink>
                     </li>
                     <li>
                         <NavLink to="/product">Product</NavLink>

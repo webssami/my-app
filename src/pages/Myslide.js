@@ -10,7 +10,7 @@ import Slide2 from '../img/tan_main_img2.jpg';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-
+//swiper plugin
 export default () => {
   return (
     <div className='main_slide'>

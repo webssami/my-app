@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-const Counter = () => {
+function Counter() {
     const [num, setNumber] = useState(0); //const num=0
     const increase = () => {
         setNumber(num + 1)
@@ -10,7 +10,7 @@ const Counter = () => {
     }
     return(
         <div>
-            <button onClick={increase}>+1</button>
+            <button onClick={increase} style={{margin:'5px'}}>+1</button>
             <button onClick={decrease}>-1</button>
             <p>{num}</p>
         </div>
