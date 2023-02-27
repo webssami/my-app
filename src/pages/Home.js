@@ -6,11 +6,18 @@ import Myslide from './Myslide';
 const Home = () => {
 
     return (
-        <div className='slide_top'>
+        <div className='page_wrap'>
             <h1>Home 화면-swiper</h1>
-
-            <Myslide></Myslide>
+            <div className='slide_info'>
+                <div className='slide_academy'>
+                    <Myslide></Myslide>
+                </div>
+                <div className='info'>
+                    소개
+                </div>
+            </div>
         </div>
+        
     
     );
 }

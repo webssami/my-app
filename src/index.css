@@ -99,9 +99,23 @@ input::placeholder{
   color: #f0dc8c;
   text-decoration: underline;
 }
-.slide_top h1{
+.page_wrap h1{
   margin: 20px 0;
 }
 .main_slide .swiper-slide img{
   width: 100%;
+}
+.page_wrap{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.slide_info{
+  display: flex;
+  justify-content: space-between;
+}
+.slide_academy{
+  width: 69.58%;
+}
+.info{
+  width:28%;
 }

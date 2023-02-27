@@ -8,9 +8,9 @@ import Slide1 from '../img/tan_main_img1.jpg';
 import Slide2 from '../img/tan_main_img2.jpg';
 // Import Swiper styles
 import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/navigation';
-//swiper plugin
+import 'swiper/css/pagination'; //페이지블릿버튼
+import 'swiper/css/navigation'; //이전, 다음버튼
+
 export default () => {
   return (
     <div className='main_slide'>
