@@ -109,12 +109,27 @@ input::placeholder{
   max-width: 1200px;
   margin: 0 auto;
 }
+.main_slide{
+  position: relative;
+}
+.main_slide button{
+  border:0;
+  padding: 5px 7px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 10;
+  background: #ff0;
+}
 .slide_info{
   display: flex;
   justify-content: space-between;
 }
 .slide_academy{
   width: 69.58%;
+}
+.list_sw .swiper-slide img{
+  width: 100%;
 }
 .info{
   width:28%;
